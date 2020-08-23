@@ -14,10 +14,10 @@ php bin/magento setup:upgrade
 ```
 
 ## Events
-- sales_order_new
-- sales_order_canceled
-- sales_order_holded
-- sales_order_unholded
+- Order State Change
+- Order Status Change
+- New Order Invoice
+- New Order Shipment
 
 ## Contributors
 1. Willem Poortman (founder) <willem@magehook.com>
