@@ -1,0 +1,6 @@
+The use of this Module is subject to a license agreement and its terms and conditions, which can be requested from the
+Licensor. The license is concluded with the Licensor and includes the non-exclusive, non-transferable right to use this
+Module, whereby the right of use is explicitly not transferable to third parties. All intellectual property rights that
+are applicable to the module (such as copyright, trademark, trade name right, database right and neighboring rights, as
+well as rights to know-how) are and remain the property of Licensor. The use of the software never includes a transfer
+of such rights and only includes a right to use the Module.

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!--
+ * @author MageHook <info@magehook.com>
+ * @package MageHook_HookEventsSales
+ *
+ * For the full copyright and license information, please view the LICENSE.txt
+ * file that was distributed with this source code.
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:MageHook_Hook/etc/webhooks.xsd">
+  <hook event="order_state_change"
+        title="Order State Change"
+        group="Sales"
+        service="Magento\Sales\Api\Data\OrderInterface"
+        validator="MageHook\HookEventsSales\Event\Options\OrderStateChangeValidator"/>
+  <hook event="order_status_change"
+        title="Order Status Change"
+        group="Sales"
+        service="Magento\Sales\Api\Data\OrderInterface"
+        validator="MageHook\HookEventsSales\Event\Options\OrderStatusChangeValidator"/>
+  <hook event="new_order_invoice"
+        title="New Order Invoice"
+        group="Sales"
+        service="Magento\Sales\Api\Data\InvoiceInterface"/>
+  <hook event="new_order_shipment"
+        title="New Order Shipment"
+        group="Sales"
+        service="Magento\Sales\Api\Data\ShipmentInterface"/>
+</config>
